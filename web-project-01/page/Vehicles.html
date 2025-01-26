@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add To Cart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light headershadow-box">
+    <div class="container-fluid">
+      <img src="../img/Ford/Ford-logo.png" width="50px" class="me-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-black fw-bold me-4 txthover" aria-current="page" href="../Idex.html"><i
+                class="bi bi-house-fill"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold me-4 txthover" href="#"><i class="bi bi-info-square-fill"></i> About
+              Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold me-4 txthover" href="#"><i class="bi bi-person-lines-fill"></i>
+              ContactUs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black fw-bold me-4 txthover" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-award"></i>Brands Options</a>
+            <ul class="dropdown-menu dropdown">
+              <li><a class="dropdown-item" href="#">phone</a></li>
+              <li><a class="dropdown-item" href="#">car</a></li>
+              <li><a class="dropdown-item" href="#">computer</a></li>
+              <li><a class="dropdown-item" href="#">bicycle</a></li>
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <form class="d-flex " role="search">
+          <i class="bi bi-search text-black fw-bold me-4"></i>
+          <i class="bi bi-bell text-black fw-bold me-4 "></i>
+          <i class="bi bi-info-circle text-black fw-bold me-4"></i>
+          <i class="bi bi-three-dots-vertical text-black fw-bold me-4"></i>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../img/Vehicles/cq5dam.web.2160.2160-_1_.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../img/Vehicles/24_FRD_MST_61047.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/Vehicles/cq5dam.web.2160.2160.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150.jpeg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150</h5>
+            <p class="card-text">The one that started it all. The original get-it-done truck. Finely tuned intelligence and an attractive, rugged design merge with premium-grade muscle to create something greater than the sum.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 PowerBoost Hybrid.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 PowerBoost Hybrid</h5>
+            <p class="card-text">Hybrid is designed for the long haul. Courtesy of a full hybrid V6 engine, you get optimized power and performance in an impressively advanced truck. With ruggedly stylish accents and bold trim.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Lightning.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Lightning</h5>
+            <p class="card-text">The all-electric Ford F-150 Lightning is the only F-Series truck that’s entirely gas-free, giving you purposeful technology, exciting driving experiences — and legendary BUILT FORD TOUGH</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card bg-white animation">
+          <img src="img/Ford/F-150 Raptort R.jpg" class="card-custom-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center fw-bolder text-secondary">F-150 Raptort R</h5>
+            <p class="card-text">The F-150 Raptor R packs a power punch to the off-road market with a massive 700 hp, 640 lb.-ft. of torque With ruggedly stylish accents and bold trim, Raptor R is designed to take off-roading to a thrilling new level.</p>
+            <div class="d-flex add-to-cart">
+              <div>
+                <a href="#" class="btn btn-primary text-red">Price 37,065$</a>
+              </div>
+            <!-- </div> -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-4 footer mb-4">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of whats new and exciting from us.</p>
+            <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>© 2021 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-twitter"></i></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
