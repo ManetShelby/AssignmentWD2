@@ -153,3 +153,10 @@ a{
   font-size: 30px;
   margin-top: -5px;
 }
+.ccart{
+  margin-left:50px;
+  width: 50px;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 18px;
+}
