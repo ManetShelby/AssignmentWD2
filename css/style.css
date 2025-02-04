@@ -1,0 +1,353 @@
+.nav-logo{
+    width: 50;
+
+}
+.h2{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner1{
+  background-image: url(../img/ford-banner.jpg);
+  border-radius: 20px;
+  background-position:  50% 50%;
+}
+.banner0{
+  background-image: url(../img/fordservice2.jpg);
+  border-radius: 20px;
+ background-position: 20% 80%;
+
+}
+
+.banner2{
+  background-image: url(../img/white-futuristic-background-free-photo.jpeg);
+  border-radius: 20px;
+  border: none;
+  opacity: 70%;
+  
+}
+.banner2:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 100%;
+  transform: rotate(3deg);
+  animation-delay: 2s;
+}
+.banner2-bg{
+  background: url(../img/car1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 30% 70%;
+}
+.banner1:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: green;
+}
+.animation{
+  transition: transform 1s ease;
+}
+.animation:hover{
+  transform: 1.2s;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+}
+.animation-5{
+  transition: transform 2s ease;
+}
+.animation-5:hover{
+  transform: rotate3d(2deg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.animation-10{
+  transition: transform 2s ease;
+}
+.animation-10:hover{
+  transform:scale(1.1);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.footer{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+.iconchoice{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 10s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+	        animation: tracking-in-expand 10s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.headershadow-box{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.headershadow-box2{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.wcu{
+  background-image: url(../img/900.webp);
+  border-radius: 20px;
+  height: 50vh;
+  background-position: 55% 45%  ;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.wcu-text{
+  font-size: 2rem;
+}
+.wcuicon{
+  font-size: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  text-align: center;
+}
+.wcutexticon:hover{
+  text-decoration: underline;
+
+}
+.wcutexticon1:hover{
+  text-decoration: underline;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: rgb(72, 72, 222);
+
+}
+.icon{
+  font-size: 2rem;
+  
+}
+.icon:hover{
+  color: blue;
+  transition: all 0.3s linear;
+  box-shadow: gray 2px ;
+}
+.carimg{
+  align-self: center;
+}
+.bodytext{
+  justify-self: end;
+  margin-left: 20px;
+}
+.pngcarslid{
+  border-radius: 20px;
+  
+  
+}
+.rangroverbg{
+  background-image: url(../img/900.webp);
+  background-position: 70% 30%;
+}
+.explore{
+  width: fit-content;
+  padding: 10px 10px 10px 10px;
+}
+.explore1{
+  margin-left: 50px;
+}
+.abouttext{
+  font-size: 2rem;
+  
+}
+.abouttext-bg{
+  background-color: #00142e;
+}
+.abouttexthead{
+
+  background-color: #00142e;
+}
+.twobanner{
+  font-size: 1.5rem;
+}
+.qrcard{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+}
+.fordbg{
+  background-color: rgba(6, 6, 148, 0.907);
+}
+.ccart{
+  margin-left:50px;
+  width: 50px;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 18px;
+}
+.header-banner {
+  background-image: url(../img/Hybrid/cq5dam.web.2160.2160.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+
+}
+
+.banner {
+  background-image: url(../img/Hybrid/23_FRD_ESP_59560_phev_prm.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 70vh;
+
+}
+
+
+.banner-1 {
+  background-image: url(../img/Hybrid/1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 634px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.banner-2 {
+  background-image: url(../img/Hybrid/2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 634px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-3 {
+  background-image: url(../img/Hybrid/3.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 634px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.banner-4 {
+  background-image: url(../img/Hybrid/4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 634px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.banner-5 {
+  background-image: url(../img/Hybrid/cq5dam.web.768.768\ \(2\).avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 434px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-6 {
+  background-image: url(../img/Hybrid/cq5dam.web.768.768\ \(3\).avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 434px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-7 {
+  background-image: url(../img/Hybrid/cq5dam.web.768.768\ \(4\).avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 434px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-9 {
+  background-image: url(../img/Hybrid/cq5dam.web.768.768.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 634px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-10 {
+  background-image: url(../img/Hybrid/cq5dam.web.768.768\ \(1\).avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: center center;
+  width: 634px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Backgrounb {
+  background-color: #00142E;
+  color: aliceblue;
+  height: 600px;
+  padding-top: 50px;
+}
+
+.Text{
+  color: #00142E;
+}
